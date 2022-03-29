@@ -1,5 +1,6 @@
 import React, { Component } from "react";
 import "./App.css";
+import Title from "./Components/Title";
 
 class App extends Component {
   constructor(props) {
@@ -9,9 +10,8 @@ class App extends Component {
 
   render() {
     return (
-      <div className="App">
-        <h1>Stick with us!!</h1>
-        <h3>We'll give you good reviews. </h3>
+      <div className="Card">
+        <Title />
       </div>
     );
   }

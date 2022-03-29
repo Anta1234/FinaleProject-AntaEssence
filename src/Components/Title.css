@@ -1,0 +1,16 @@
+.Title {
+}
+
+.Title h1 {
+  margin: 0;
+  padding: 40px;
+  background-color: #030302;
+  color: white;
+  text-align: center;
+  font-size: 4rem;
+  color: rgb(230, 86, 110);
+}
+
+.Title h3 {
+  text-align: center;
+}

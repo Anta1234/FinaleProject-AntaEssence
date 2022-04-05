@@ -1,5 +1,6 @@
 import React, { Component } from "react";
 import "./App.css";
+import BackgroundPic from "./Components/BackgroundPic";
 import Title from "./Components/Title";
 
 class App extends Component {
@@ -12,6 +13,7 @@ class App extends Component {
     return (
       <div className="Card">
         <Title />
+        <BackgroundPic />
       </div>
     );
   }
